@@ -8,3 +8,5 @@ emailTemplates/
 *.DS_Store
 indexfiles/
 sftp-config.json
+*.codekit
+*.htm
