@@ -1,0 +1,1078 @@
+@charset "UTF-8";
+/********** GLOBAL CSS **********/
+html {
+  border: none;
+  top: 0;
+  left: 0;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-size: 12px;
+  font-family: Verdana, Geneva, sans-serif;
+  background-color: #FFF;
+  border: none;
+  top: 0;
+  left: 0;
+  margin: 0;
+  padding: 0;
+}
+div.hide {
+  display: none;
+}
+a:visited {
+  color: #898989;
+}
+div#wrapContainer {
+  width: 100%;
+  height: auto;
+  background-color: #FFF;
+  background-image: url(images/bg1-tile.png);
+  background-repeat: repeat-x;
+  background-position: top;
+  position: relative;
+}
+h1,
+h2,
+h4,
+h5,
+h6 {
+  color: #448AA2;
+}
+h1 {
+  font-weight: 400;
+  text-transform: uppercase;
+  padding: .5em 0 0 .5em;
+}
+p {
+  color: #000;
+  font-weight: 400;
+  font-size: 1em;
+  line-height: 1.5em;
+  padding: 0 .5em 0 .5em;
+}
+.bold {
+  font-weight: bolder;
+}
+@font-face {
+  font-family: 'EntypoRegular';
+  src: url('fonts/entypo.woff') format('woff'), url('fonts/entypo.ttf') format('truetype');
+}
+[data-icon]:before {
+  font-family: 'EntypoRegular';
+  content: attr(data-icon);
+  speak: none;
+  font-size: 6em;
+  font-weight: 300;
+  font-style: normal;
+}
+/********** BANNER CSS **********/
+div#banner {
+  width: 1200px;
+  height: 156px;
+  position: relative;
+  border: none;
+  margin: 0 auto;
+  z-index: 2;
+}
+div#bannerCallOut {
+  width: 635px;
+  height: 32px;
+  position: absolute;
+  top: 0;
+  margin: 0 200px 0 360px;
+  z-index: 2;
+}
+div#bannerCallOut p {
+  font-size: 1em;
+  color: #FFF;
+  padding: 0;
+  z-index: 2;
+}
+#bannerCallOutPhone {
+  font-weight: 300;
+  margin: 0;
+  z-index: 2;
+  text-transform: uppercase;
+}
+div#bannerCallOutSocial {
+  position: absolute;
+  left: 27em;
+  top: .75em;
+  z-index: 2;
+}
+div.fb-like {
+  width: 100px;
+  height: auto;
+  position: absolute;
+  left: 37.25em;
+  top: .75em;
+  z-index: 2;
+}
+div#twitterShare {
+  position: absolute;
+  left: 44em;
+  top: .75em;
+  z-index: 2;
+}
+div#companyTitle h1 {
+  width: 645px;
+  height: auto;
+  position: absolute;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #FFF;
+  font-weight: lighter;
+  font-size: 2.5em;
+  margin: 1.5em 0 0 360px;
+  padding: 0;
+  text-transform: none;
+  z-index: 2;
+}
+div#banner a,
+div#banner a:link,
+div#banner a:hover,
+div#banner map,
+div#banner area,
+div#banner img {
+  border: none;
+  z-index: 2;
+}
+/********** TOPNAV CSS **********/
+#topNav {
+  width: 740px;
+  height: 20px;
+  position: absolute;
+  left: 320px;
+  top: 7em;
+  z-index: 2;
+}
+.ie6 #topNav,
+.ie7 #topNav {
+  top: 7.8em;
+  width: 740px;
+}
+#topNav ul li {
+  display: block;
+  float: left;
+  width: 106px;
+  height: 20px;
+  list-style: none;
+  font-size: 1em;
+  text-align: center;
+  border: #0082a7 thin solid;
+  -moz-border-radius-topleft: 5px;
+  -moz-border-radius-topright: 5px;
+  -moz-border-radius-bottomright: 0;
+  -moz-border-radius-bottomleft: 0;
+  border-radius: 5px 5px 0 0;
+  margin: 0;
+  padding: .25em;
+  z-index: 2;
+}
+div#topNav ul li#youAreHere {
+  background-color: #FFF;
+  border: #FFF thin solid;
+  -moz-border-radius-topleft: 5px;
+  -moz-border-radius-topright: 5px;
+  -moz-border-radius-bottomright: 0;
+  -moz-border-radius-bottomleft: 0;
+  border-radius: 5px 5px 0 0;
+  z-index: 2;
+}
+div#topNav ul li#youAreHere a {
+  color: #00635A;
+  text-decoration: underline;
+  z-index: 2;
+}
+ul.menuVert {
+  position: absolute;
+  visibility: hidden;
+  top: 28px;
+  width: 200px;
+  z-index: 2;
+}
+ul.menuVert {
+  position: absolute;
+  visibility: hidden;
+  top: 28px;
+  width: 300px;
+  z-index: 2;
+}
+ul#menuSubTwo {
+  left: 118px;
+  z-index: 2;
+}
+div#topNav ul#menuSubTwo li {
+  width: 250px;
+  list-style: none;
+  font-size: 1em;
+  text-align: center;
+  border: #0082a7 thin solid;
+  background-color: #005974;
+  clear: both;
+  padding: .25em;
+  z-index: 2;
+}
+div#topNav ul li a,
+ul.menuVert li a {
+  color: #FFF;
+  font-size: 1em;
+  text-decoration: underline;
+  z-index: 2;
+}
+div#topNav ul li a:link,
+ul.menuVert li a:link {
+  color: #FFF;
+  text-decoration: underline;
+  z-index: 2;
+}
+div#topNav ul li a:hover,
+div#footerNav ul li a:hover,
+ul.menuVert li a:hover {
+  color: #af8f09;
+  text-decoration: underline;
+  z-index: 2;
+}
+/********** MAIN CONTENT CSS **********/
+div#screenContainer {
+  width: 1200px;
+  height: auto;
+  margin: 0 auto;
+  position: absolute;
+  top: 10.8em;
+  z-index: 1;
+}
+.ie6 div#screenContainer,
+.ie7 div#screenContainer {
+  position: relative;
+  top: 0;
+}
+div#content {
+  width: 900px;
+  height: auto;
+  background-color: none;
+  border-right: #F3F3F3 1px solid;
+  border-left: #F3F3F3 1px solid;
+  position: relative;
+  margin: 0 auto;
+  z-index: 1;
+}
+div#pageContentMenuBody {
+  width: 465px;
+  float: right;
+  background-color: #FFF;
+}
+div#pageContentMenuBody p {
+  text-indent: 2em;
+  padding: 0 1em;
+}
+div#pageContentStandard {
+  width: 670px;
+  min-height: 630px;
+  float: left;
+  position: relative;
+  background-color: none;
+  border-right: #F3F3F3 1px solid;
+  padding: .25em;
+  z-index: 1;
+}
+div#pageContentStandard div.serviceBrief {
+  width: 218px;
+  height: 230px;
+  display: block;
+  float: left;
+  border: #F3F3F3 thin solid;
+  background-color: #FFF;
+  margin: .25em 0 0 .25em;
+}
+div#pageContentStandard div.serviceBrief h1 {
+  padding: 0 0 0 .5em;
+  font-weight: 800;
+}
+div#pageContentStandard div.serviceBrief h1 ul li {
+  position: relative;
+  left: -1.5em;
+  text-transform: none;
+}
+div#pageContentStandard div.serviceBrief h1 ul {
+  color: #700b65;
+  list-style: url(images/triangleBullet.png);
+  font-size: .75em;
+  font-weight: 400;
+  list-style-position: outside;
+}
+div#pageContentStandard div.serviceBrief p span a:hover {
+  color: #af8f09;
+  font-weight: 400;
+  font-size: inherit;
+  text-decoration: underline;
+}
+div.pageContentMenu {
+  width: 670px;
+  min-height: 630px;
+  float: left;
+  position: relative;
+  background-color: none;
+  border-right: #F3F3F3 1px solid;
+  padding: .25em;
+  z-index: 1;
+}
+div#testimonyTest,
+div#codingOfChartsTest,
+div#companyTest,
+div#contactTest,
+div#docBillConsultationTest,
+div#fullCredentialingTest,
+div#fullMedicalBillingTest,
+div#medicalCourierTest,
+div#privacyPolicyTest,
+div#servicesTest,
+div#siteMapTest,
+div#homeTest,
+div#accountManagerTest {
+  background-color: none;
+  width: 900px;
+  height: 300px;
+  z-index: 0;
+}
+p.testimonial {
+  color: #AF3900;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: .9rem;
+  width: 20%;
+  height: auto;
+  font-weight: 400;
+  line-height: 1.5em;
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
+  padding: 0 2rem;
+  text-align: center;
+  font-style: italic;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  border: #e0e0e0 solid .5rem;
+  box-shadow: 0px 0px 20px 0px gray;
+}
+p.testimonial a {
+  text-decoration: none;
+  color: inherit;
+}
+.ldquo {
+  height: 1.5rem;
+  width: 3rem;
+  background-image: url('images/dmsQuotes_ldquo.png');
+  background-size: 1.75rem;
+  background-repeat: no-repeat;
+  background-position: top left;
+  position: absolute;
+  bottom: 50%;
+  left: 0;
+}
+.rdquo {
+  height: 1.5rem;
+  width: 3rem;
+  background-image: url('images/dmsQuotes_rdquo.png');
+  background-size: 1.75rem;
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  position: absolute;
+  bottom: 50%;
+  right: 0;
+}
+p.pageIntro {
+  color: #ffffff;
+  font-style: normal;
+  font-size: 1.125em;
+  width: 20%;
+  font-weight: normal;
+  line-height: 1.5em;
+  border-radius: 10px;
+  background-color: #6a6678;
+  border: solid #6a6678 1rem;
+  text-align: center;
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  box-shadow: 0px 0px 20px 0px gray;
+}
+div#testimonyTest p span a,
+div#codingOfChartsTest p span a,
+div#companyTest p span a,
+div#contactTest p span a,
+div#docBillConsultationTest p span a,
+div#fullCredentialingTest p span a,
+div#fullMedicalBillingTest p span a,
+div#medicalCourierTest p span a,
+div#privacyPolicyTest p span a,
+div#servicesTest p span a,
+div#siteMapTest p span a,
+div#homeTest p span a,
+div#accountManagerTest p span a,
+div#pressTest p span a {
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: smaller;
+  text-decoration: none;
+}
+div#testimonyTest p span a:link,
+div#codingOfChartsTest p span a:link,
+div#companyTest p span a:link,
+div#contactTest p span a:link,
+div#docBillConsultationTest p span a:link,
+div#fullCredentialingTest p span a:link,
+div#fullMedicalBillingTest p span a:link,
+div#medicalCourierTest p span a:link,
+div#privacyPolicyTest p span a:link,
+div#servicesTest p span a:link,
+div#siteMapTest p span a:link,
+div#homeTest p span a:link,
+div#accountManagerTest p span a:link,
+div#pressTest p span a:link {
+  color: #07acef;
+}
+div#testimonyTest p span a:hover,
+div#codingOfChartsTest p span a:hover,
+div#companyTest p span a:hover,
+div#contactTest p span a:hover,
+div#docBillConsultationTest p span a:hover,
+div#fullCredentialingTest p span a:hover,
+div#fullMedicalBillingTest p span a:hover,
+div#medicalCourierTest p span a:hover,
+div#privacyPolicyTest p span a:hover,
+div#servicesTest p span a:hover,
+div#siteMapTest p span a:hover,
+div#homeTest p span a:hover,
+div#accountManagerTest p span a:hover,
+div#pressTest p span a:hover {
+  color: #af8f09;
+}
+div#staffMembers {
+  width: 340px;
+  float: right;
+}
+div#staffMembers div {
+  background-color: #F3F3F3;
+  width: inherit;
+  height: 325px;
+  position: relative;
+}
+img.widget {
+  padding: .75em;
+}
+div.memberImgRight img.profile {
+  width: 125px;
+  height: auto;
+  float: right;
+  top: 3.5em;
+  right: .25em;
+  clear: both;
+  padding: .5em;
+}
+div.memberImgLeft img.profile {
+  width: 150px;
+  height: auto;
+  float: left;
+  top: 3.5em;
+  left: .25em;
+  clear: both;
+  padding: .5em;
+}
+div#staffMembers h3 {
+  padding: 1em 0 0 1em;
+}
+div#staffMembers p {
+  font-size: .8em;
+  font-weight: 800;
+  line-height: 1.75em;
+}
+div.memberImgRight p {
+  text-indent: 2em;
+  margin: 0 5px 0 15px;
+  padding: 0 .5em .5em 0;
+}
+div.memberImgLeft p {
+  text-indent: 2em;
+  margin: 0 5px 0 5px;
+  padding: 0 1em 1em;
+}
+span.caption {
+  font-size: .8em;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+div#staffGeneral {
+  float: left;
+  width: 325px;
+}
+div#staffGeneral img {
+  width: 300px;
+  height: auto;
+}
+div#staffGeneral p {
+  text-indent: 2em;
+  line-height: 1.8em;
+}
+div#staffGeneral p.abstract {
+  color: #448AA2;
+}
+div#siteMapTest {
+  background-image: url(images/image3251.jpg);
+  background-position: top right;
+  background-repeat: no-repeat;
+  background-color: #e0e0e0;
+  margin-top: 2rem;
+}
+div#homeTest {
+  background-image: url(images/051115homepage.jpg);
+  background-position: center right;
+  background-repeat: no-repeat;
+  height: 333px;
+  position: relative;
+  background-color: #e0e0e0;
+  margin-top: 2rem;
+}
+div#privacyPolicyTest {
+  background-image: url(images/image402.jpg);
+  background-position: top right;
+  background-repeat: no-repeat;
+  position: relative;
+  background-color: #e0e0e0;
+  margin-top: 2rem;
+}
+div#testimonyTest {
+  background-image: url(images/051115testimonials.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  background-color: #e0e0e0;
+  margin-top: 2rem;
+}
+div#codingOfChartsTest,
+div#fullCredentialingTest,
+div#accountManagerTest,
+div#docBillConsultationTest,
+div#fullMedicalBillingTest,
+div#medicalCourierTest {
+  background-image: url(images/051115ourServices.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  background-color: #e0e0e0;
+  margin-top: 2rem;
+}
+div#companyTest {
+  background-image: url(images/042314ourcompany.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  background-color: #e0e0e0;
+  margin-top: 2rem;
+}
+div#pressTest {
+  background-image: url(images/atestimonials.jpg);
+  background-position: center right;
+  background-repeat: no-repeat;
+  position: relative;
+  background-color: #e0e0e0;
+  margin-top: 2rem;
+}
+div#contactTest {
+  background-image: url(images/051115contactUs.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  background-color: #e0e0e0;
+  margin-top: 2rem;
+}
+div#pageContentForm {
+  width: 340px;
+  float: right;
+  background-color: #F3F3F3;
+  border-radius: 5px;
+  padding: .25em;
+}
+div#pageContentContactInfo {
+  width: 285px;
+  height: auto;
+  background-color: #FFF;
+  float: left;
+  padding: .25em;
+}
+iframe {
+  width: 222px;
+  height: 310px;
+}
+div#pageContentConnect {
+  clear: both;
+  border-top: #F3F3F3 solid 4px;
+  position: relative;
+  height: auto;
+  width: inherit;
+}
+div#pageContentConnect div#pageContentConnectSocial ul {
+  margin: 0 0 0 30em;
+}
+div#pageContentConnect div#pageContentConnectSocial ul li {
+  text-decoration: none;
+  list-style: none;
+  padding-bottom: 1em;
+}
+div#pageContentConnect div#pageContentConnectSocial a img {
+  position: absolute;
+  left: 40em;
+}
+div#pageContentConnect ul li {
+  display: inline-block;
+  margin: .5rem;
+}
+div#pageContentConnect ul li a img.img-social {
+  height: 32px;
+  width: auto;
+}
+div#pageContentConnect ul li a img.medBilling {
+  height: auto;
+  width: 80px;
+}
+div#pageContentConnect img#staff {
+  width: 375px;
+  height: auto;
+  position: absolute;
+  top: 5.5em;
+  left: 0;
+}
+div.pageContent p span a,
+div.pageContent p span a:link {
+  color: #07acef;
+  font-weight: 400;
+  font-size: .8em;
+  text-decoration: none;
+}
+article.right,
+article.left {
+  width: 50%;
+}
+article.right p.quote {
+  border: .5em solid #D1BB51;
+  margin: 0 0 0 50%;
+  border-radius: 15px;
+  padding: 1em;
+  width: 100%;
+  font-size: 1.25em;
+}
+article.right p.caption {
+  margin: 0 0 0 450px;
+  color: #D1BB51;
+  font-weight: 800;
+  background-image: url(images/testimonialRightAuthor.png);
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  padding: 1em 0 2em 20px;
+  width: inherit;
+}
+article.left p.quote {
+  border: .5em solid #FF7F69;
+  margin: 0 50% 0 0;
+  border-radius: 15px;
+  padding: 1em;
+  width: 100%;
+  font-size: 1.25em;
+}
+article.left p.caption {
+  margin: 0 0 0 225px;
+  color: #FF7F69;
+  font-weight: 800;
+  background-image: url(images/testimonialLeftAuthor.png);
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  padding: 1em 0 2em 20px;
+  width: inherit;
+}
+article.left p.caption span,
+article.right p.caption span {
+  font-weight: normal;
+}
+/********** SIDENAV CSS **********/
+div#sideNav {
+  border-right: #F8F8F8 solid thin;
+  height: auto;
+  background-color: #FFF;
+  float: left;
+  width: 200px;
+}
+div#sideNav p {
+  font-weight: bolder;
+  font-size: 1.5em;
+}
+div#sideNav ul {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+div#sideNav ul li {
+  list-style-type: none;
+  line-height: 135%;
+  position: relative;
+  color: #700b65;
+  padding: 0 0 .75em 1em;
+}
+div#sideNav ul li a {
+  text-decoration: none;
+  color: #448AA2;
+}
+div#sideNav ul li a:hover {
+  text-decoration: underline;
+}
+/********** SIDEBAR CSS **********/
+div#sideBar {
+  background-color: #e6f0f3;
+  width: 222px;
+  height: auto;
+  float: right;
+}
+div.sideBarTitle {
+  background-color: #6a6678;
+  color: #FFF;
+  font-style: normal;
+  text-align: center;
+  padding: 1em 1em 1.8em;
+}
+div#sideBar ul li {
+  list-style-type: circle;
+  margin: 0 0 .5em;
+}
+/********** FOOTER CSS **********/
+div#footer {
+  background-color: #6a6678;
+  width: inherit;
+  height: auto;
+  clear: both;
+  z-index: 1;
+  color: #FFF;
+  padding: 0;
+}
+div#footer nav {
+  width: 44%;
+  height: auto;
+  margin: 10px 0 0 0;
+  float: left;
+  padding: 0;
+}
+div#footer div.one-fourth {
+  width: 25%;
+  text-align: left;
+  min-height: 300px;
+  float: right;
+  background-repeat: repeat-x;
+  background-position: top;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+  border-right: white solid 1px;
+  margin: none;
+  padding: 1em;
+}
+div#footer div.one-fourth:nth-child(2) {
+  border: none;
+  position: relative;
+}
+div#footer div.one-fourth p {
+  font-size: inherit;
+  color: #FFF;
+  text-align: center;
+  white-space: normal;
+  letter-spacing: 0.09em;
+}
+div#footer div.one-fourth p.bold {
+  font-size: 1.25em;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  border-bottom: white double .25em;
+  padding: 0 0 .5em 0;
+}
+div#footer div.one-fourth p q {
+  font-family: georgia, serif;
+}
+div#footer div.one-fourth:nth-child(2) img {
+  border: none;
+  padding: none;
+  margin: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+div#footer a {
+  color: inherit;
+  text-decoration: none;
+}
+div#footer a:hover {
+  color: #07acef;
+  text-decoration: underline;
+}
+div#footerNav {
+  clear: both;
+  background-color: #448AA2;
+  height: 10em;
+  width: inherit;
+}
+div#footerNav ul {
+  width: 100%;
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+div#footerNav ul li {
+  display: inline-block;
+  width: auto;
+  height: auto;
+  padding: 0 0 0 10px;
+  border: 0;
+  margin: 0;
+}
+div#footerNav ul li a {
+  color: white;
+  font-size: 1em;
+  text-decoration: underline;
+}
+div#footerNav ul li a:link {
+  text-decoration: underline;
+}
+div#footerNav p#addressCredits {
+  width: 81.9285714%;
+  height: auto;
+  float: left;
+  text-align: left;
+  color: white;
+  line-height: 1.5em;
+  margin: 10px 0 0 0;
+  padding: 0;
+}
+div#footerNav p#addressCredits a {
+  color: white;
+}
+/********** FORM CSS **********/
+fieldset {
+  border: none;
+  width: inherit;
+}
+label {
+  padding: 1em;
+}
+input[type="submit"] {
+  cursor: pointer;
+  border: 1px solid #999;
+  border-radius: 4px;
+  background: #eee;
+  margin: 0 0 0 1em;
+  padding: 5px;
+}
+input[type="reset"] {
+  cursor: pointer;
+  border: 1px solid #999;
+  border-radius: 4px;
+  background: #eee;
+  padding: 5px;
+}
+div.invalid,
+p.invalid {
+  color: red;
+}
+div.application_field {
+  display: inline-block;
+  clear: both;
+}
+input,
+textarea {
+  border-radius: 5px;
+  border: #448AA2 solid 1px;
+  padding: 5px;
+}
+input[type="submit"]:active,
+input[type="reset"]:active {
+  margin-top: 1px;
+}
+fieldset span.caption {
+  font-style: italic;
+  font-size: smaller;
+  color: gray;
+}
+/* NEW CSS 060512 */
+.newService {
+  color: red;
+}
+/* YOUTUBE PLAYER 082112 */
+#player {
+  width: inherit;
+  height: auto;
+  overflow: hidden;
+  position: relative;
+  background-color: #e6f0f3;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -o-border-radius: 5px;
+  margin: 0;
+  color: #0082a7;
+}
+.youtube .carousel {
+  width: 300px;
+  height: 100%;
+  overflow: auto;
+  position: absolute;
+  left: 350px;
+  z-index: 3;
+  margin: 5px;
+  font: Verdana, Geneva, sans-serif;
+  dispay: none;
+}
+.youtube .thumbnail {
+  margin-right: 1em;
+  width: 100px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -o-border-radius: 5px;
+  display: none;
+}
+.youtube iframe.player {
+  width: inherit;
+  height: auto;
+  overflow: auto;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -o-border-radius: 5px;
+  margin: 0;
+}
+.yt-descript {
+  color: #0082a7;
+  display: none;
+  height: 100px;
+  border-bottom: dotted 1px #6a6678;
+}
+.carItemContain {
+  width: ;
+  height: 100px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+div#tumblr-badge {
+  height: 670px;
+  overflow: scroll;
+}
+/************** TUMBLR FEED CSS **************
+div#tumblr-badge ul {
+	list-style-image: url(images/triangleBullet.png);
+	}
+	
+div#tumblr-badge em {
+	font-size: 1em;
+	font-weight: normal;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	}
+	
+div#tumblr-badge p {
+	font-size: 1em;
+	}
+	
+*****/
+/* SpryCollapsiblePanel.css - version 0.5 - Spry Pre-Release 1.6.1 */
+/* Copyright (c) 2006. Adobe Systems Incorporated. All rights reserved. */
+/* This is the selector for the main CollapsiblePanel container. For our
+ * default style, the CollapsiblePanel is responsible for drawing the borders
+ * around the widget.
+ *
+ * If you want to constrain the width of the CollapsiblePanel widget, set a width on
+ * the CollapsiblePanel container. By default, our CollapsiblePanel expands horizontally to fill
+ * up available space.
+ *
+ * The name of the class ("CollapsiblePanel") used in this selector is not necessary
+ * to make the widget function. You can use any class name you want to style the
+ * CollapsiblePanel container.
+ */
+.CollapsiblePanel {
+  margin: 0px;
+  padding: 0px;
+  border-left: solid 1px #CCC;
+  border-right: solid 1px #999;
+  border-top: solid 1px #999;
+  border-bottom: solid 1px #CCC;
+}
+/* This is the selector for the CollapsiblePanelTab. This container houses
+ * the title for the panel. This is also the container that the user clicks
+ * on to open or close the panel.
+ *
+ * The name of the class ("CollapsiblePanelTab") used in this selector is not necessary
+ * to make the widget function. You can use any class name you want to style an
+ * CollapsiblePanel panel tab container.
+ */
+.CollapsiblePanelTab {
+  font: bold 0.7em sans-serif;
+  background-color: #DDD;
+  border-bottom: solid 1px #CCC;
+  margin: 0px;
+  padding: 2px;
+  cursor: pointer;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+}
+/* This is the selector for a CollapsiblePanel's Content area. It's important to note that
+ * you should never put any padding on the content area element if you plan to
+ * use the CollapsiblePanel's open/close animations. Placing a non-zero padding on the content
+ * element can cause the CollapsiblePanel to abruptly grow in height while the panels animate.
+ *
+ * The name of the class ("CollapsiblePanelContent") used in this selector is not necessary
+ * to make the widget function. You can use any class name you want to style a
+ * CollapsiblePanel content container.
+ */
+.CollapsiblePanelContent {
+  margin: 0px;
+  padding: 0px;
+}
+/* An anchor tag can be used inside of a CollapsiblePanelTab so that the
+ * keyboard focus ring appears *inside* the tab instead of around the tab.
+ * This is an example of how to make the text within the anchor tag look
+ * like non-anchor (normal) text.
+ */
+.CollapsiblePanelTab a {
+  color: black;
+  text-decoration: none;
+}
+/* This is an example of how to change the appearance of the panel tab that is
+ * currently open. The class "CollapsiblePanelOpen" is programatically added and removed
+ * from panels as the user clicks on the tabs within the CollapsiblePanel.
+ */
+.CollapsiblePanelOpen .CollapsiblePanelTab {
+  background-color: #EEE;
+}
+/* This is an example of how to change the appearance of the panel tab when the
+ * CollapsiblePanel is closed. The "CollapsiblePanelClosed" class is programatically added and removed
+ * whenever the CollapsiblePanel is closed.
+ */
+.CollapsiblePanelClosed .CollapsiblePanelTab {
+  /* background-color: #EFEFEF */
+}
+/* This is an example of how to change the appearance of the panel tab as the
+ * mouse hovers over it. The class "CollapsiblePanelTabHover" is programatically added
+ * and removed from panel tab containers as the mouse enters and exits the tab container.
+ */
+.CollapsiblePanelTabHover,
+.CollapsiblePanelOpen .CollapsiblePanelTabHover {
+  background-color: #CCC;
+}
+/* This is an example of how to change the appearance of all the panel tabs when the
+ * CollapsiblePanel has focus. The "CollapsiblePanelFocused" class is programatically added and removed
+ * whenever the CollapsiblePanel gains or loses keyboard focus.
+ */
+.CollapsiblePanelFocused .CollapsiblePanelTab {
+  background-color: #3399FF;
+}
+q {
+  quotes: &ldquo &rdquo;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-style: italic;
+  line-height: 1.5em;
+}
+q q {
+  quotes: &lsquo &rsquo;
+}
+/*# sourceMappingURL=dms.css.map */
