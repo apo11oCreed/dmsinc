@@ -1,0 +1,10 @@
+_notes/
+archives/
+*.map
+*.sublime-project
+*.sublime-workspace
+emailTemplates/
+*google*
+*.DS_Store
+indexfiles/
+sftp-config.json
