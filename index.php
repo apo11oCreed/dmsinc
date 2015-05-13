@@ -9,7 +9,7 @@
 			<div id="content">
     			<div id="homeTest">
     				<p class="pageIntro">We accept all specialties. There are no practices too large or small.</p>
-                    <p class="testimonial"><span class="ldquo"></span><a href="testimonials.php#achicoine">We are very pleased with their professionalism and quick response to our questions/concerns &hellip;</a><span class="rdquo"></span></p>
+                    <!-- <p class="testimonial"><span class="ldquo"></span><a href="testimonials.php#achicoine">We are very pleased with their professionalism and quick response to our questions/concerns &hellip;</a><span class="rdquo"></span></p> -->
                     
     			</div>
 				
