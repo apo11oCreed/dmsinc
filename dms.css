@@ -453,14 +453,19 @@ div#staffMembers {
 div#staffMembers div {
   background-color: #F3F3F3;
   width: inherit;
-  height: 325px;
-  position: relative;
+  height: auto;
+  /* position: relative; */
+  clear: both;
 }
 img.widget {
-  padding: .75em;
+  /* padding: .75em; */
+}
+div.memberImgRight,div.memberImgLeft{
+  border-top: 1px solid white;
+  clear:both;
 }
 div.memberImgRight img.profile {
-  width: 125px;
+  width: 150px;
   height: auto;
   float: right;
   top: 3.5em;
@@ -489,11 +494,13 @@ div.memberImgRight p {
   text-indent: 2em;
   margin: 0 5px 0 15px;
   padding: 0 .5em .5em 0;
+  margin-right: 162px;
 }
 div.memberImgLeft p {
   text-indent: 2em;
   margin: 0 5px 0 5px;
   padding: 0 1em 1em;
+  margin-left: 162px;
 }
 span.caption {
   font-size: .8em;

@@ -21,9 +21,9 @@
                 <p>DMS now stands as a premier management company with a robust reference list of clients who attest to the model of enhancing services and keeping in strong communication to maximize reimbursement and quality for practices. We commit to adding more complimentary services to our management model each year in our effort to not only add to our comprehensive medical management services, but also remain steadily ahead of the industry.</p>
                 <p>We accept all specialties. There are no practices too large or small. We have solo practitioners as well as groups that provide care for greater than 100,000 patients per year. The decision to change your billing company is a hard one. That is why we invite clients we have worked with to give you the candid subjective perspective to help you determine if we are a good fit. Anyone can claim to provide quality service along with substantial reimbursement. Many of them actually cut the essential services that would raise your income above your competitors. They do this to compete with a rock bottom fee. Our past and current clients will let you know exactly what we have done to bring them an increase in pay, organization, and peace of mind. </p>
         	</div>
-            <div id="staffMembers">
+            <div id="staffMembers" style="background-color:#F3F3F3;">
                 <h1>Our Staff</h1>
-                <div class="memberImgLeft">
+                <div class="memberImgRight">
                     <img src="images/image3851.jpg" class="profile" alt="Barbara DiBona" width="171" height="256" />
                     <h3>Barbara DiBona | <span class="caption">President</span></h3>
                     <p>Barbara provides structure and confidence as the founder of DMS. She created the company to provide close relationships built on trust and honesty. Her presence keeps the message alive and strong.<br />
@@ -48,7 +48,7 @@
                 <p>Alyson has become an expert in several departments over her long tenure at DMS. In 2014, the credentialing department required growth and Alyson stepped up to the challenge. She is quickly mastering this very challenging position.</p>
                 </div>
                 <div class="memberImgRight"><img src="images/051115andrea.jpg" class="profile" alt="Andrea Lindback" width="249" height="402" /><h3>Andrea Lindback | <span class="caption">Encounter Entry Supervisor</span></h3>
-                <p>Andrea set the DMS record for reaching the rank of Supervisor over the shortest time period. The majority of data entry specialists were taught under her tutelage. She is intelligent and ambitious.</p>
+                <p>In one and a half short years, Andrea has managed to climb quickly through the ranks and reach the rank of Supervisor quicker than any employee in DMS history. She is the defacto leader in our Encounter Entry department.  The majority of our entry specialists have learned under her tutelage.</p>
                 </div>
             </div>
         </div>
