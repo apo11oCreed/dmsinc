@@ -48,7 +48,7 @@
                 <p>Alyson has become an expert in several departments over her long tenure at DMS. In 2014, the credentialing department required growth and Alyson stepped up to the challenge. She is quickly mastering this very challenging position.</p>
                 </div>
                 <div class="memberImgRight"><img src="images/051115andrea.jpg" class="profile" alt="Andrea Lindback" width="249" height="402" /><h3>Andrea Lindback | <span class="caption">Encounter Entry Supervisor</span></h3>
-                <p>In one and a half short years, Andrea has managed to climb quickly through the ranks and reach the rank of Supervisor quicker than any employee in DMS history. She is the defacto leader in our Encounter Entry department.  The majority of our entry specialists have learned under her tutelage.</p>
+                <p>In one and a half short years, Andrea has managed to reach the rank of Supervisor swifter than any employee in DMS history.  She is the defacto leader in our Encounter Entry department. The majority of our entry specialists have learned under her tutelage.</p>
                 </div>
             </div>
         </div>
