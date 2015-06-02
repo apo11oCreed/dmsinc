@@ -11,3 +11,8 @@ sftp-config.json
 *.codekit
 *.htm
 index_files/
+.idea/*.xml
+.idea/*.iml
+PHPMailer/
+.idea/.name
+.gitignore
