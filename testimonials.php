@@ -18,6 +18,22 @@
                     <h1>
                         Testimonials
                     </h1>
+                    <article class="left">
+                      <p class="quote"><a name="portnow" id="portnow"></a>
+                        <q>
+                            In 2013 I started my practice, Boston Vein Care. I have worked with DMS in the past and wanted to bring them in to help me out with credentialing for my practice. Credentialing was somewhat different due to imaging component and vascular lab in addition to simple practice component. Jennifer was my go to contact in DMS and found her very professional and diligent and not only took care of my paperwork, but also went the extra mile to help me out for the future months and now years dealing with the insurance companies to ensure my equipment was certified accordingly. I strongly recommend using Doctors' Management Service for their credentialing service.
+                        </q>
+                      </p>
+                      <p class="caption">
+                        Jay Portnow
+                        <br />
+                        <span>
+                            Business Manager
+                            <br />
+                            M.D., Ph.D.
+                        </span>
+                      </p>
+                  </article>
                     <article class="right">
                       <p class="quote"><a name="portnow" id="portnow"></a>
                         <q>
