@@ -16,3 +16,8 @@ index_files/
 PHPMailer/
 .idea/.name
 .gitignore
+*.JPG
+*.pub
+*.icns
+*.ico
+*.xml

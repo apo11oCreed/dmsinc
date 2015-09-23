@@ -18,6 +18,22 @@
                     <h1>
                         Testimonials
                     </h1>
+                    <article class="right">
+                      <p class="quote"><a name="portnow" id="portnow"></a>
+                        <q>
+                            I have been using Doctors' Management Service, Inc. (DMS) as my billing company for almost two years. I have practiced medicine for more than thirty years and have had the opportunity to use many billing companies. DMS stands out as the best, far and away. And this is for a number of reasons. Firstly, the people at the company are uniformly pleasant and helpful. Also, employees have specific responsibilities so you can always talk to the right person without going through an elaborate questioning process. Furthermore, the company is truly a full service company – recently DMS helped with filling out an insurance provider application. Two months ago I was helped with a DME application. DMS is so much more than a billing company. And, of course, they do a great job billing and following up with outstanding bills. I recommend them highly and without reservation.
+                        </q>
+                      </p>
+                      <p class="caption">
+                        Jay Portnow
+                        <br />
+                        <span>
+                            Business Manager
+                            <br />
+                            M.D., Ph.D.
+                        </span>
+                      </p>
+                  </article>
                     <article class="left">
                       <p class="quote"><a name="achicoine" id="achicoine"></a>
                         <q>
