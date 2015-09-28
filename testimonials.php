@@ -25,7 +25,7 @@
                         </q>
                       </p>
                       <p class="caption">
-                        Jay Portnow
+                        Muzzamal Habib, MD
                         <br />
                         <span>
                             Business Manager
@@ -44,9 +44,9 @@
                         Jay Portnow
                         <br />
                         <span>
-                            Business Manager
+                            President
                             <br />
-                            M.D., Ph.D.
+                            Boston Vein Care
                         </span>
                       </p>
                   </article>
