@@ -18,8 +18,24 @@
                     <h1>
                         Testimonials
                     </h1>
+                    <article class="right">
+                      <p class="quote"><a name="orr" id="orr"></a>
+                        <q>
+                            When I ventured into solo private practice last year I was nervous about finding the right billing company for my needs. After interviewing multiple companies , I chose Doctor’s Management because of their personalized and thorough approach to billing and practice management. With every encounter, they have exceeded even my highest expectations, in their timelines in correspondence, customer service, knowledge of healthcare regulations and billing, and expedience with credentialing. Furthermore, Tim’s emphasis on excellence is even apparent in his affiliates and referrals – each professional reference he offers to help with my practice, from a bookkeeper to an IT specialist, is hand-picked for their similar philosophy of respect, diligence, fair pricing, and excellent service. I couldn’t be happier with Doctors' Management Service.
+                        </q>
+                      </p>
+                      <p class="caption">
+                        Nicole Orr, MD
+                        <br />
+                        <span>
+                            President
+                            <br />
+                            Post-Acute Cardiology Care, LLC 
+                        </span>
+                      </p>
+                  </article>
                     <article class="left">
-                      <p class="quote"><a name="portnow" id="portnow"></a>
+                      <p class="quote"><a name="habib" id="habib"></a>
                         <q>
                             In 2013 I started my practice, Boston Vein Care. I have worked with DMS in the past and wanted to bring them in to help me out with credentialing for my practice. Credentialing was somewhat different due to imaging component and vascular lab in addition to simple practice component. Jennifer was my go to contact in DMS and found her very professional and diligent and not only took care of my paperwork, but also went the extra mile to help me out for the future months and now years dealing with the insurance companies to ensure my equipment was certified accordingly. I strongly recommend using Doctors' Management Service for their credentialing service.
                         </q>
@@ -28,9 +44,9 @@
                         Muzzamal Habib, MD
                         <br />
                         <span>
-                            Business Manager
+                            President
                             <br />
-                            M.D., Ph.D.
+                            Boston Vein Care 
                         </span>
                       </p>
                   </article>
@@ -41,12 +57,10 @@
                         </q>
                       </p>
                       <p class="caption">
-                        Jay Portnow
+                        Jay Portnow M.D., Ph.D.
                         <br />
                         <span>
-                            President
-                            <br />
-                            Boston Vein Care
+                            Business Manager
                         </span>
                       </p>
                   </article>
