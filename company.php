@@ -44,10 +44,10 @@
                 <div class="memberImgRight"><img src="images/051115holly.jpg" class="profile" alt="Holly Davis" width="249" height="402" /><h3>Holly Davis | <span class="caption">Medical Coding Supervisor</span></h3>
                 <p>Holly continues to define her role as supervisor in our coding department. She is a trainer of new hires, a publisher of new coding handbooks, and spearheads the PQRS research and implementation for all our clients.</p>
                 </div>
-                <div class="memberImgRight"><img src="images/051115alyson.jpg" class="profile" alt="Alyson Silva" width="249" height="402" /><h3>Alyson Silva | <span class="caption">Credentialing Specialist</span></h3>
+                <div class="memberImgLeft"><img src="images/051115alyson.jpg" class="profile" alt="Alyson Silva" width="249" height="402" /><h3>Alyson Silva | <span class="caption">Credentialing Specialist</span></h3>
                 <p>Alyson has become an expert in several departments over her long tenure at DMS. In 2014, the credentialing department required growth and Alyson stepped up to the challenge. She is quickly mastering this very challenging position.</p>
                 </div>
-                <div class="memberImgLeft"><img src="images/051115andrea.jpg" class="profile" alt="Andrea Lindback" width="249" height="402" /><h3>Andrea Lindback | <span class="caption">Encounter Entry Supervisor</span></h3>
+                <div class="memberImgRight"><img src="images/051115andrea.jpg" class="profile" alt="Andrea Lindback" width="249" height="402" /><h3>Andrea Lindback | <span class="caption">Encounter Entry Supervisor</span></h3>
                 <p>In one and a half short years, Andrea has managed to reach the rank of Supervisor swifter than any employee in DMS history.  She is the defacto leader in our Encounter Entry department. The majority of our entry specialists have learned under her tutelage.</p>
                 </div>
             </div>
